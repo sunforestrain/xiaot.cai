@@ -25,13 +25,14 @@ paginate = 10
         { name = "Search", url = "/search/" }
     ]
 
-  [params.socialIcons]
-    [[params.socialIcons]]
-      name = "github"
-      url = "https://github.com/yourusername"
-    [[params.socialIcons]]
-      name = "rss"
-      url = "/index.xml"
+  # 社交图标配置 - 删除了 [params.socialIcons] 这一行
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername"
+  
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
 
 [[menu.main]]
   name = "Posts"
